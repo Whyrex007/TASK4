@@ -1,0 +1,102 @@
+body {
+  font-family: "Happy Monkey", cursive;
+  text-align: center;
+  background-color: linear-gradient(#f6eee9, #906259);
+  background-size: cover;
+  color: #34180d;
+  /* text-shadow: 0 0 1px black; */
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bff {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 5px #34180d;
+}
+#bday-age {
+  background: #34180d;
+  color: #f6eee9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#bday-date {
+  background: #34180d;
+  color: #f6eee9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0px;
+}
+.gift-title {
+  margin-bottom: 0px;
+}
+.gift-section {
+  margin-top: 50px;
+}
+.gift-title2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.gift-hint {
+  margin-top: 10px;
+}
+.giftbox-cover {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-image: url(https://week2-task2.netlify.app/images/giftbox-cover.png);
+  background-size: cover;
+}
+
+.giftbox-cover2 {
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  background-image: url(https://week2-task2.netlify.app/images/giftbox-cover.png);
+  background-size: cover;
+}
+
+.giftbox-cover3 {
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  background-image: url(https://week2-task2.netlify.app/images/giftbox-cover.png);
+  background-size: cover;
+}
+
+div {
+  display: block;
+}
+.giftbox-cover:hover {
+  background-image: url(https://media.giphy.com/media/RB46T9ysjzDEs/giphy.gif);
+}
+.giftbox-cover2:hover {
+  background-image: url(https://media.giphy.com/media/RB46T9ysjzDEs/giphy.gif);
+}
+.giftbox-cover3:hover {
+  background-image: url(https://media.giphy.com/media/3o85xjSETVG3OpPyx2/giphy.gif);
+}
+.footer {
+  display: block;
+  width: 400px;
+  margin: 40px auto 20px;
+
+  font-style: italic;
+  font-weight: bold;
+}
